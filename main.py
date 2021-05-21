@@ -57,18 +57,20 @@
 # 3. Key dan Value dapat berupa tipe variabel/obyek apapun.
 # {key: value}
 
-dictionari = {1: 'ini di sebut value', 'key': 2}
-print(type(dictionari))
-print("ambil VALUE dictionary[1] = ", dictionari[1])
-print("ambil KEY dictionary['key'] = ", dictionari['key'])
+# dictionari = {1: 'ini di sebut value', 'key': 2}
+# print(type(dictionari))
+# print("ambil VALUE dictionary[1] = ", dictionari[1])
+# print("ambil KEY dictionary['key'] = ", dictionari['key'])
+#
+# # Konversi (conversion, cast) antar tipe data
+# # int(), float(), str(), set(), tuple(), list(), dict()
+# print(float(5))
+# print(int(10.6))
+# print(float('2.5'))
+# print(str(25))
+# print(set([1,2,3]))
+# print(tuple({5,6,7}))
+# print(list('hello'))
+# print(dict([(3,26),(4,44)]))
 
-# Konversi (conversion, cast) antar tipe data
-# int(), float(), str(), set(), tuple(), list(), dict()
-print(float(5))
-print(int(10.6))
-print(float('2.5'))
-print(str(25))
-print(set([1,2,3]))
-print(tuple({5,6,7}))
-print(list('hello'))
-print(dict([(3,26),(4,44)]))
+
