@@ -22,3 +22,11 @@ binatang = ['kucing', 'rusa', 'badak', 'gajah']
 del binatang[1]
 print(binatang)
 
+# SLICING pada string
+# mutable (bisa diubah)
+
+s = "Hello World!"
+print(s[4]) 		#ambil karakter kelima dari string s
+print(s[6:11]) 		#ambil karakter ketujuh hingga sebelas dari string s
+s = "Halo Dunia!"	#ubah isi string s menjadi "Halo Dunia!", seharusnya berhasil karena mutable
+print (s)
