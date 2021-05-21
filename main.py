@@ -33,14 +33,29 @@
 
 # TUPLE
 # list yang tidak bisa diubah elementnya
-tupleT = (5, 'program tuple', 1 + 3j)
-print(tupleT[1])
+# tupleT = (5, 'program tuple', 1 + 3j)
+# print(tupleT[1])
+#
+# # SET
+# # kumpulan item yang bersifat unik dan tanpa urutan (unordered collection)
+# # pake kurawal dan di pisah koma
+# # Pada Set kita dapat melakukan union dan intersection
+# # sekaligus otomatis melakukan penghapusan data duplikat.
+# # karena unordered jadinya gak bisa di akses kyak index
+# contohSet = {1, 2, 2, 3, 3, 3}
+# print(contohSet)  # {1, 2, 3}
 
-# SET
-# kumpulan item yang bersifat unik dan tanpa urutan (unordered collection)
-# pake kurawal dan di pisah koma
-# Pada Set kita dapat melakukan union dan intersection
-# sekaligus otomatis melakukan penghapusan data duplikat.
-# karena unordered jadinya gak bisa di akses kyak index
-contohSet = {1, 2, 2, 3, 3, 3}
-print(contohSet)  # {1, 2, 3}
+# DICTIONARY
+# kumpulan pasangan kunci-nilai (pair of key-value) yang bersipat tidak berurutan
+# cara mengakses datanya kita harus mengetahui kuncinya (KEY)
+
+# 1. Setiap elemen pair key-value dipisahkan dengan koma (,).
+# 2. Key dan Value dipisahkan dengan titik dua (:).
+# 3. Key dan Value dapat berupa tipe variabel/obyek apapun.
+
+dictionari = {1: 'ini di sebut value', 'key': 2}
+print(type(dictionari))
+print("ambil VALUE dictionary[1] = ", dictionari[1])
+print("ambil KEY dictionary['key'] = ", dictionari['key'])
+
+
