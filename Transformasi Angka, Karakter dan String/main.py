@@ -22,8 +22,6 @@ print(' '.join(['Dicoding', 'Indonesia', '!']))
 # memisahkan substring berdasarkan delimiter tertentu
 print('Dicoding Indonesia !'.split()) #['Dicoding', 'Indonesia', '!']
 
-
-
 multi_line = """Halo!
 Kapan terakhir kali kita bertemu?
 Kita bertemu hari Jum’at yang lalu."""
