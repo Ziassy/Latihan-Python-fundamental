@@ -104,13 +104,13 @@
 
 
 
-mylist = ["apple", "banana", "cherry"]
-
-fruits = 'Pauziah'
-
-mylist.append(fruits) # add single argument to list
-mylist.extend(["watermelon", "melon"]) # Add multiple argument to list
-print(mylist)
+# mylist = ["apple", "banana", "cherry"]
+#
+# fruits = 'Pauziah'
+#
+# mylist.append(fruits) # add single argument to list
+# mylist.extend(["watermelon", "melon"]) # Add multiple argument to list
+# print(mylist)
 
 # test_dict = {'Name': nama, 'Age': umur, 'Geeks' : 3}
 # print(type(test_dict))
@@ -121,6 +121,52 @@ print(mylist)
 #     # getDictionary untuk mendapatkan key nya
 #     # test_dict[getDictionary] untuk mendapatkan value nya
 #     print(getDictionary, test_dict[getDictionary])
+
+# ========= test dictionary =============
+#
+# exDictionary = {
+#   "brand": "Ford",
+#   "electric": False,
+#   "year": 1964,
+#   "colors": ["red", "white", "blue"]
+# }
+# getList = exDictionary['colors']
+#
+#
+# print(getList[1])
+
+
+Data JSON
+DATA = [
+        {
+            "duration": 395,
+            "risetime": 1568082479
+        },
+        {
+            "duration": 640,
+            "risetime": 1568088118
+        },
+        {
+            "duration": 614,
+            "risetime": 1568093944
+        },
+        {
+            "duration": 555,
+            "risetime": 1568099831,
+        },
+        {
+            "duration": 595,
+            "risetime": 1568105674
+        }
+    ]
+
+
+for d in DATA:
+    # print(d)
+    d['message'] = "aku kwkwk"
+    # print(d)
+
+print(DATA)
 
 
 
