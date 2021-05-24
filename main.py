@@ -74,5 +74,38 @@
 # print(dict([(3,26),(4,44)]))
 
 
+class Calculator:
+
+    def __init__(self, nilai=0):
+        self.nilai = nilai
+
+    def tambah_angka(self, angka1, angka2):
+        self.nilai = angka1 + angka2
+        if self.nilai > 9:
+            print('Kalkulator sederhana melebihi batas angka: {}'.format(self.nilai))
+        return self.nilai
+
+class CalculatorKali(Calculator):
+    """contoh mewarisi kelas kalkulator sederhana"""
+    def kali_angka(self, angka1, angka2):
+        self.nilai = angka1 * angka2
+        return self.nilai
+
+    def tambah_angka(self, angka1, angka2):
+        self.nilai = angka1 + angka2
+        return self.nilai
+
+kk = CalculatorKali()
+a = kk.kali_angka(2, 3) # sesuai dengan definisi class memiliki fitur kali_angka
+print(a)
+
+b = kk.tambah_angka(5, 6) # memiliki fitur tambah_angka karena mewarisi dari Kalkulator
+print(b)
+
+
+
+
+
+
 
 
