@@ -136,37 +136,47 @@
 # print(getList[1])
 
 
-Data JSON
-DATA = [
-        {
-            "duration": 395,
-            "risetime": 1568082479
-        },
-        {
-            "duration": 640,
-            "risetime": 1568088118
-        },
-        {
-            "duration": 614,
-            "risetime": 1568093944
-        },
-        {
-            "duration": 555,
-            "risetime": 1568099831,
-        },
-        {
-            "duration": 595,
-            "risetime": 1568105674
-        }
-    ]
+# Data JSON
+# DATA = [
+#         {
+#             "duration": 395,
+#             "risetime": 1568082479
+#         },
+#         {
+#             "duration": 640,
+#             "risetime": 1568088118
+#         },
+#         {
+#             "duration": 614,
+#             "risetime": 1568093944
+#         },
+#         {
+#             "duration": 555,
+#             "risetime": 1568099831,
+#         },
+#         {
+#             "duration": 595,
+#             "risetime": 1568105674
+#         }
+#     ]
+#
+#
+# for d in DATA:
+#     # print(d)
+#     d['message'] = "aku kwkwk"
+#     # print(d)
+#
+# print(DATA)
 
+rest_list = []
 
-for d in DATA:
-    # print(d)
-    d['message'] = "aku kwkwk"
-    # print(d)
+name = 'pauziah'
+age = '19'
+rest_list.append((name, age))
 
-print(DATA)
+print(type(rest_list))
+print(rest_list)
+print(rest_list[1])
 
 
 
