@@ -74,34 +74,53 @@
 # print(dict([(3,26),(4,44)]))
 
 
-class Calculator:
+# class Calculator:
+#
+#     def __init__(self, nilai=0):
+#         self.nilai = nilai
+#
+#     def tambah_angka(self, angka1, angka2):
+#         self.nilai = angka1 + angka2
+#         if self.nilai > 9:
+#             print('Kalkulator sederhana melebihi batas angka: {}'.format(self.nilai))
+#         return self.nilai
+#
+# class CalculatorKali(Calculator):
+#     """contoh mewarisi kelas kalkulator sederhana"""
+#     def kali_angka(self, angka1, angka2):
+#         self.nilai = angka1 * angka2
+#         return self.nilai
+#
+#     def tambah_angka(self, angka1, angka2):
+#         self.nilai = angka1 + angka2
+#         return self.nilai
+#
+# kk = CalculatorKali()
+# a = kk.kali_angka(2, 3) # sesuai dengan definisi class memiliki fitur kali_angka
+# print(a)
+#
+# b = kk.tambah_angka(5, 6) # memiliki fitur tambah_angka karena mewarisi dari Kalkulator
+# print(b)
 
-    def __init__(self, nilai=0):
-        self.nilai = nilai
 
-    def tambah_angka(self, angka1, angka2):
-        self.nilai = angka1 + angka2
-        if self.nilai > 9:
-            print('Kalkulator sederhana melebihi batas angka: {}'.format(self.nilai))
-        return self.nilai
 
-class CalculatorKali(Calculator):
-    """contoh mewarisi kelas kalkulator sederhana"""
-    def kali_angka(self, angka1, angka2):
-        self.nilai = angka1 * angka2
-        return self.nilai
+mylist = ["apple", "banana", "cherry"]
 
-    def tambah_angka(self, angka1, angka2):
-        self.nilai = angka1 + angka2
-        return self.nilai
+fruits = 'Pauziah'
 
-kk = CalculatorKali()
-a = kk.kali_angka(2, 3) # sesuai dengan definisi class memiliki fitur kali_angka
-print(a)
+mylist.append(fruits) # add single argument to list
+mylist.extend(["watermelon", "melon"]) # Add multiple argument to list
+print(mylist)
 
-b = kk.tambah_angka(5, 6) # memiliki fitur tambah_angka karena mewarisi dari Kalkulator
-print(b)
-
+# test_dict = {'Name': nama, 'Age': umur, 'Geeks' : 3}
+# print(type(test_dict))
+#
+# # get key and value using for loop
+# print('Dict key-value are')
+# for getDictionary in test_dict:
+#     # getDictionary untuk mendapatkan key nya
+#     # test_dict[getDictionary] untuk mendapatkan value nya
+#     print(getDictionary, test_dict[getDictionary])
 
 
 
